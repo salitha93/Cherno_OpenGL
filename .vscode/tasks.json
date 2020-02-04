@@ -8,7 +8,7 @@
             "type": "shell",
             "command": "g++",
             "args": [
-                "Main.cpp",
+                "*.cpp",
                 "-o",
                 "${workspaceFolderBasename}"
             ],
@@ -20,7 +20,8 @@
             "command": "./${workspaceFolderBasename}",
             "dependsOn": [
                 "build"
-            ]
+            ],
+            "problemMatcher": []
         }
     ]
 }
